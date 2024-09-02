@@ -6,46 +6,30 @@ MASTODON
 
 
 FACEBOOK
-    [x] Babilejo
-    [X] Facebook - Public, my page
+    [ ] Babilejo
+    [ ] Facebook - Public, my page
+    [x] Facebook - Algernon Blackwood Appreciation
 
 TWITTER
-    [x] Twitter
+    [ ] Twitter
 
 TELEGRAM
-    [x] Komencantujo | Esperanto
-    [x] Esperanto-English
-    [x] Esperanto en Ameriko
-    [x] Esperanto - English
+    [ ] Komencantujo | Esperanto
+    [ ] Esperanto-English
+    [ ] Esperanto en Ameriko
+    [ ] Esperanto - English
 
 DISCORD
-    [X] Mississippi Esperanto Society
-    [x] North Alabama Esperanto Group -- General Channel
-    [x] Esperanto | hejmo
+    [x] Mississippi Esperanto Society
+    [ ] North Alabama Esperanto Group -- General Channel
+    [ ] Esperanto | hejmo
 
 REDDIT
-    [x] r/Esperanto
+    [ ] r/Esperanto
 
 ARCHIVE
-    [] Internet Archive
-
-Eto el Ligno: An English-Esperanto Reader
-
-Jen dua linva traduko de tre mallonga, bonega, saĝa kaj ne tro malfacila rakonto de #AlgernonBlackwood kiu servas kiel legilo por lernantoj, kaj aliaj. Ĝuu!
-Here is a dual-language verion of a very short, excellent, wise and not too difficult story by #AlgernonBlackwood that serves as a primer for learners, and others. Enjoy!
-https://kingrpaul.github.io/algernon-blackwood_eto-el-ligno/
-https://tinyurl.com/eto-el-ligno
-
-#CreativeCommons #ebook #epub #kindle #kobo #Esperanto #English #Literature #ShortStory
+    [ ] Internet Archive
 
 
-https://tinyurl.com/eto-el-ligno
-
-
-
-English-#Esperanto 'easy-reader' version of #literature #shortstory 'A Bit of Wood' by #AlgernonBlackwood.
-Ĉi tiu mallonga e-libro estas facila, senpaga, kaj duo-lingva. Mi esperas ke vi ŝatas ĝin. 
-https://tinyurl.com/eto-el-ligno
-#CreativeCommons #ebook #epub #kindle #kobo.
-
-
+https://kingrpaul.github.io/algernon-blackwood_la-mortodanco/
+https://tinyurl.com/mortodanco
