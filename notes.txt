@@ -7,11 +7,11 @@ MASTODON
 
 FACEBOOK
     [ ] Babilejo
-    [ ] Facebook - Public, my page
+    [X] Facebook - Public, my page
     [x] Facebook - Algernon Blackwood Appreciation
 
-TWITTER
-    [ ] Twitter
+TWITTERto
+    [X] Twitter
 
 TELEGRAM
     [ ] Komencantujo | Esperanto
@@ -21,8 +21,8 @@ TELEGRAM
 
 DISCORD
     [x] Mississippi Esperanto Society
-    [ ] North Alabama Esperanto Group -- General Channel
-    [ ] Esperanto | hejmo
+    [x] North Alabama Esperanto Group -- General Channel
+    [X] Esperanto | hejmo
 
 REDDIT
     [ ] r/Esperanto
@@ -33,3 +33,8 @@ ARCHIVE
 
 https://kingrpaul.github.io/algernon-blackwood_la-mortodanco/
 https://tinyurl.com/mortodanco
+
+https://tinyurl.com/mortodanco
+
+At the link, dual-language English-#Esperanto edition of #shortstory "The Dance of Death", written by #AlgernonBlackwood. I suspect that both Gaiman's Sandman & Pratchett's Discworld built on Blackwood's title character. A bright shiny, penny to anyone who finds an error or can prove me wrong (many restrictions apply).
+#CreativeCommons #ebook #epub #kindle #kobo
