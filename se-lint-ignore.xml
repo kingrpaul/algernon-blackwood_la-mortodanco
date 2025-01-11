@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
-	<file path="logo.svg">
-		<ignore>
-			<code>x-004</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
-	<file path="logo.svg">
-		<ignore>
-			<code>x-014</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
 	<file path="content.opf">
 		<ignore>
 			<code>m-007</code>
@@ -24,28 +12,16 @@
 			<reason>Non-SE hosted.</reason>
 		</ignore>
 	</file>
-	<file path="cover.svg">
-		<ignore>
-			<code>s-028</code>
-			<reason>manually reviewed</reason>
-		</ignore>
-	</file>
-	<file path="imprint.xhtml">
+	<file path="colophon.xhtml">
 		<ignore>
 			<code>s-012</code>
 			<reason>intended for appearance</reason>
 		</ignore>
 	</file>
-	<file path="imprint.xhtml">
+	<file path="colophon.xhtml">
 		<ignore>
 			<code>m-007</code>
 			<reason>refers to a page within a larger work</reason>
-		</ignore>
-	</file>
-	<file path="titlepage.svg">
-		<ignore>
-			<code>s-003</code>
-			<reason>special case, reader</reason>
 		</ignore>
 	</file>
 	<file path="the-dance-of-death.xhtml">
@@ -54,4 +30,39 @@
 			<reason>mixed-language document</reason>
 		</ignore>
 	</file>
+
+	<!-- SVG FILES -->
+	<file path="logo.svg">
+		<ignore>
+			<code>x-004</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+	<file path="logo.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+		<file path="titlepage.svg">
+		<ignore>
+			<code>s-003</code>
+			<reason>special case, reader</reason>
+		</ignore>
+	</file>
+	<file path="cover.svg">
+		<ignore>
+			<code>s-028</code>
+			<reason>manually reviewed</reason>
+		</ignore>
+	</file>
+
+	<!-- DISTRIBUTION FILES -->
+	<file path="*.*">
+		<ignore>
+			<code>f-001</code>
+			<reason>distribution files</reason>
+		</ignore>
+	</file>
+
 </se-lint-ignore>
