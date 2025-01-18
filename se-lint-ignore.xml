@@ -1,50 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="the-dance-of-death.xhtml">
+		<ignore>
+			<code>s-033</code>
+			<reason>dual-language document</reason>
+		</ignore>
+	</file>
+
+	<!-- CONTENT -->	
 	<file path="content.opf">
 		<ignore>
 			<code>m-007</code>
 			<reason>Producer scan.</reason>
 		</ignore>
 	</file>
-	<file path="content.opf">
+
+	<!-- TITLEPAGE -->
+	<file path="titlepage.xhtml">
 		<ignore>
-			<code>m-009</code>
-			<reason>Non-SE hosted.</reason>
+			<code>s-021</code>
+			<reason>title not in English</reason>
 		</ignore>
 	</file>
-	<file path="colophon.xhtml">
-		<ignore>
-			<code>s-012</code>
-			<reason>intended for appearance</reason>
-		</ignore>
-	</file>
+
+	<!-- COLOPHON -->
 	<file path="colophon.xhtml">
 		<ignore>
 			<code>m-007</code>
-			<reason>refers to a page within a larger work</reason>
+			<reason>article within a book requires page reference</reason>
 		</ignore>
 	</file>
-	<file path="the-dance-of-death.xhtml">
+	<file path="colophon.xhtml">
 		<ignore>
-			<code>s-033</code>
-			<reason>mixed-language document</reason>
+			<code>s-048</code>
+			<reason>italics used to signify language change when applied to short story</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>s-060</code>
+			<reason>italics used to signify language change when applied to short story</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>no end punctuation as not using complete sentences</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>no end punctuation as not using complete sentences</reason>
 		</ignore>
 	</file>
 
 	<!-- SVG FILES -->
-	<file path="logo.svg">
-		<ignore>
-			<code>x-004</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
-	<file path="logo.svg">
-		<ignore>
-			<code>x-014</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
-		<file path="titlepage.svg">
+	<file path="titlepage.svg">
 		<ignore>
 			<code>s-003</code>
 			<reason>special case, reader</reason>
@@ -53,16 +65,8 @@
 	<file path="cover.svg">
 		<ignore>
 			<code>s-028</code>
-			<reason>manually reviewed</reason>
+			<reason>cover.svg and titlepage.svg title elements don't match</reason>
 		</ignore>
 	</file>
-
-	<!-- DISTRIBUTION FILES -->
-	<file path="*.*">
-		<ignore>
-			<code>f-001</code>
-			<reason>distribution files</reason>
-		</ignore>
-	</file>
-
+	
 </se-lint-ignore>

@@ -4,8 +4,10 @@
 		<dc:identifier id="uid">url:https://github.com/kingrpaul/algernon-blackwood/la-mortodanco</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<dc:rights>Except as otherwise noted, the sources used in this ebook are believed to be in the US public domain. The ebook itself is dedicated to to the worldwide public domain CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<!-- 	PUBLISH -->
 		<dc:publisher id="publisher">Paul King</dc:publisher>
+		<meta property="file-as" refines="#publisher">King, Paul</meta>
 		<meta property="se:url.homepage" refines="#publisher">https://kingrpaul.github.io</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
@@ -14,8 +16,8 @@
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
 		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
+		<!-- ACCESSIBILITY -->
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
-		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
 		<meta property="schema:accessMode">textual</meta>
 		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
@@ -27,54 +29,55 @@
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
+		<!-- DESCRIPTION -->
 		<dc:title id="title">La Mortodanco</dc:title>
-		<meta property="file-as" refines="#title">La Mortodanco</meta>
-		<!-- <dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta> -->
+		<meta property="file-as" refines="#title">Mortodanco, La</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description">This e-book contains The Dance of Death, both in the original English and an Esperanto translation and is intended for Esperanto learners.</dc:description>
+		<dc:description id="description">A dual-language Esperanto-English translation of The Dance of Death.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description" xml:lang="eo">
-			&lt;p&gt;This e-book contains The Dance of Death, both in the original English and an Esperanto translation and is intended for Esperanto learners.&lt;/p&gt;
+			&lt;p&gt;A dual-language Esperanto-English translation of The Dance of Death.&lt;/p&gt;
 		</meta>
 		<dc:language>eo</dc:language>
+		<!-- SOURCES -->
 		<dc:source>https://algernonblackwood.org/Z-files/danceofdeath.pdf</dc:source>
 		<dc:source>https://archive.org/details/listenerandothe00blacgoog/page/n243</dc:source>
 		<meta property="se:production-notes">None.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<!-- <meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta> -->
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/algernon-blackwood_la-mortodanco</meta>
+		<!-- AUTHOR -->
 		<dc:creator id="author">Algernon Blackwood</dc:creator>
 		<meta property="file-as" refines="#author">Blackwood, Algernon</meta>
 		<meta property="se:name.person.full-name" refines="#author">Algernon Henry Blackwood</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Algernon_Blackwood</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50008491</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<!-- TRANSCRIBER -->
+		<dc:contributor id="transcriber-1">Anonima</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Anonima</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<!-- COVER ART -->
 		<dc:contributor id="artist">Michael Wolgemut</dc:contributor>
 		<meta property="file-as" refines="#artist">Wolgemut, Michael</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Michael_Wolgemut</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n83227359</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<!-- <dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta> -->
+		<!-- TRANSLATION -->
+		<dc:contributor id="translator">Paul King</dc:contributor>
+		<meta property="file-as" refines="#translator">King, Paul</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<!-- PRODUCTION -->
 		<dc:contributor id="producer-1">Paul King</dc:contributor>
 		<meta property="file-as" refines="#producer-1">King, Paul</meta>
 		<meta property="se:url.homepage" refines="#producer-1">https://kingrpaul.github.io/</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pbl</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">wat</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
@@ -98,7 +101,7 @@
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="la-mortodanco.xhtml"/>
 		<itemref idref="the-dance-of-death.xhtml"/>
-		<itemref idref="colophon.xhtml"/>		
+		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
 </package>
